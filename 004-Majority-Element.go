@@ -5,7 +5,6 @@ func majorityElement(nums []int) int {
 	for i := 1; i < len(nums); i++ {
 		if n == 0 {
 			c, n = nums[i], 1
-			continue
 		} else if nums[i] == c {
 			n++
 		} else {
